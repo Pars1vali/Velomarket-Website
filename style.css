@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Roboto:wght@100&display=swap");
+html {
+    overflow-x: hidden;
+}
+#bike {
+    opacity: 68%;
+    width: 100%;
+}
+header {
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.856);
+}
+.nav {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.15vw;
+    position: relative;
+    bottom: 41.4vw;
+    width: 100%;
+    height: 3vw;
+    background-color: rgba(175, 175, 175, 0.614);
+}
+#velomarket {
+    font-weight: 700;
+    font-size: 2vw;
+    color: rgb(253, 255, 247);
+    position: relative;
+    left: -40vw;
+    top: 0.2vw;
+    border-bottom: none;
+}
+.catalog {
+    display: flex;
+    position: relative;
+    top: -2.2vw;
+    left: 27vw;
+}
+#bk {
+    width: 9.2vw;
+}
+#acs {
+    width: 8.2vw;
+    position: relative;
+    left: 2vw;
+}
+#components {
+    width: 7.8vw;
+    position: relative;
+    left: 4vw;
+}
+#contact {
+    width: 7.8vw;
+    position: relative;
+    left: 6vw;
+}
+#scooter {
+    width: 7.8vw;
+    position: relative;
+    left: 8vw;
+}
+a:link {
+    color: rgb(253, 255, 247);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(253, 255, 247);
+    text-decoration: none;
+}
+a:hover {
+    font-size: 1.3vw;
+    top: -0.13vw;
+    color: rgb(255, 255, 255);
+    border-bottom: 1.2px solid;
+}
+a:active {
+    color: rgb(212, 213, 203);
+}
+.centered {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 2.6vw;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#btn {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.35vw;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(212, 218, 204, 0.619);
+    background: #aebe6d72;
+    width: 12vw;
+    height: 2.3vw;
+    -webkit-border-radius: 100px / 20px;
+    -moz-border-radius: 100px /10px;
+    border-radius: 100px / 100px;
+}
+#btn:hover {
+    width: 14vw;
+    height: 3vw;
+    font-size: 1.745vw;
+    text-align: center;
+    color: rgb(238, 255, 223);
+    background-color: #ccdc8c90;
+    transition-duration: 0.13s;
+    transition-timing-function: ease-in;
+}
+
+.fourbiks {
+    display: flex;
+}
+
+.fourbiks div {
+    margin-top: -3vw;
+    width: 25%;
+}
+.fourbiks img {
+    width: 100%;
+    opacity: 70%;
+    z-index: 0;
+}
+.fourbiks p {
+    position: relative;
+    top: -23vw;
+    font-size: 5vw;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    height: 100%;
+}
+.dv14 p {
+    position: relative;
+    font-size: 3vw;
+    top: -21.5vw;
+}
+.a11 {
+    display: block;
+}
+.a11:link {
+    color: rgba(253, 255, 247, 0);
+    height: 36.9vw;
+}
+.a11:hover {
+    color: rgba(227, 227, 225, 0.988);
+    background-color: rgb(127, 121, 121);
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+}
+.a11:active {
+    color: rgba(117, 117, 117, 0.988);
+    transition-duration: 1s;
+}
+.chouse {
+    text-align: center;
+    position: relative;
+    top: -1vw;
+    width: 100%;
+    height: 67vw;
+    background-color: rgb(242, 242, 242);
+}
+.chouse p {
+    position: relative;
+    top: 4vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 3.3vw;
+    color: #86897ea7;
+}
+#tp2 {
+    font-weight: 400;
+    font-size: 1.8vw;
+    color: #8b8e8184;
+}
+#pfeil {
+    position: relative;
+    width: 3vw;
+    height: 3vw;
+    top: 5vw;
+    left: 50%;
+    opacity: 80%;
+}
+* {
+    box-sizing: border-box;
+}
+
+.carousel-image {
+    display: block;
+    height: 35vw; /* set min-width, allow images to set cell width */
+    min-width: 10vw;
+    max-width: 100%;
+    margin-right: 20px;
+    margin-top: 7vw;
+    transform: translateY(-50%);
+}
+
+.carousel.is-fullscreen .carousel-image {
+    height: auto;
+    max-height: 100%;
+}
+.description {
+    margin-top: 17.5vw;
+}
+
+.description {
+    position: relative;
+    top: -23vw;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    height: 100%;
+}
+.description p {
+    position: relative;
+    font-size: 1.66vw;
+    top: -5vw;
+    color: red;
+}
+.description img {
+    position: relative;
+    top: 25vw;
+    height: 39vw;
+}
+.a31 {
+    display: block;
+}
+.a31:link {
+    color: rgba(253, 255, 247, 0);
+    height: 36.9vw;
+}
+.a31:hover {
+    color: rgba(227, 227, 225, 0);
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+}
+.a31:active {
+    color: rgba(117, 117, 117, 0.988);
+    transition-duration: 1s;
+}

@@ -1,25 +1,90 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        
-        <center>
-            <img src="D:\wowa.jpg" width="140" height="180" 
-        </center>
-        <title>margin-top</title>
-        <title>margin-top</title>
-        <style>
-         div {
-          background: rgb(194, 248, 255); /* Цвет фона */
-          padding: 10px; /* Поля вокруг текста */
-          margin-top: 5%; /* Отступ сверху */
-         }
-         body{
-            background: rgba(57, 31, 252, 0.397)
-        }
-        </style>
-       
-        <div>
-        Чумак Владимир Артемович
-        </div>
-    
-    </head>        
-<html>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Веломаркет</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="flickity.min.css" />
+        <link rel="stylesheet" href="normalize.css" />
+        <link rel="shortcut icon" href="sr/favicon.ico" type="image/x-icon" />
+    </head>
+    <body>
+        <header>
+            <img src="sr/bicycle.png" alt="Веломаркет" id="bike" />
+            <div class="nav">
+                <a href="/contact.html" id="velomarket"> VELOMARKET</a>
+                <div class="catalog">
+                    <a href="/bike.html" id="bk">Велосипеды</a>
+                    <a href="/acs.html" id="acs">Аксесуары</a>
+                    <a href="/components.html" id="components">Запачасти</a>
+                    <a href="/contact.html" id="contact">Контакты</a>
+                    <a href="/scooter.html" id="scooter">Самокаты</a>
+                </div>
+            </div>
+            <div class="centered">Давайте подберем вам <br />что-нибудь...</div>
+            <a href="/bike.html" id="btn"> ПОСМОТРЕТЬ </a>
+        </header>
+
+        <section class="fourbiks">
+            <div class="dv11">
+                <a href="/bike.html" class="a11">
+                    <img src="sr/mtb.png" alt="" class="img11" />
+                    <p>MTB</p>
+                </a>
+            </div>
+
+            <div class="dv12">
+                <a href="/bike.html" class="a11">
+                    <img src="sr/women.png" alt="" />
+                    <p>WOMEN</p>
+                </a>
+            </div>
+
+            <div class="dv13">
+                <a href="/bike.html" class="a11">
+                    <img src="sr/work.png" alt="" />
+                    <p>WORK</p>
+                </a>
+            </div>
+
+            <div class="dv14">
+                <a href="/components.html" class="a11">
+                    <img src="sr/comp.png" alt="" />
+                    <p>COMPONENTS</p>
+                </a>
+            </div>
+        </section>
+        <div class="chouse">
+            <p>ВЫБЕРИ СЕБЕ ВЕЛОСИПЕД</p>
+            <p id="tp2">Поиск по типу велосипеда</p>
+            <img src="sr/pfeil.png" alt="" id="pfeil" />
+        <div class="carousell" data-flickity='{ "fullscreen": true, "lazyLoad": 2 }' >
+                    <div class="description">
+                            <a href="/bike.html" class = "a31">
+                            <img class="carousel-image"   src="sr/1.jpg"/>
+                            <!-- <p>Черный шосейный велосипед</br>₽49990</p> -->
+                        </a>
+                    </div>
+                    <img class="carousel-image"   src="sr/2.jpg"/>
+                    <img class="carousel-image"   src="sr/3.jpg"/>
+                    <img class="carousel-image"   src="sr/4.jpg"/>
+                    <img class="carousel-image"   src="sr/5.jpg"/>
+                    <img class="carousel-image"   src="sr/6.jpg"/>
+                    <img class="carousel-image"   src="sr/7.jpg"/>
+                    <img class="carousel-image"   src="sr/8.jpg"/>
+                    <img class="carousel-image"   src="sr/9.jpg"/>
+            </div>
+            </div>
+            <script src="flickity.pkgd.min.js">
+            </script>
+            </div>
+    </body>
+</html>
+<!-- <div class="dv11">
+    <a href="/bike.html" class="a11">
+        <img src="sr/mtb.png" alt="" class="img11" />
+        <p>MTB</p>
+    </a>
+</div> -->
